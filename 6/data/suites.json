@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "TestSignOut",
+    "children" : [ {
+      "name" : "TestCompleteSignOut()",
+      "uid" : "7cb78324e6fde31e",
+      "parentUid" : "5ca6812ebf5056c9afadb21df3d7a2e3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1627750991057,
+        "stop" : 1627750992317,
+        "duration" : 1260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5ca6812ebf5056c9afadb21df3d7a2e3"
+  } ],
+  "name" : "suites"
+}
