@@ -1,0 +1,111 @@
+[ {
+  "uid" : "a93aab2dda78b04c",
+  "name" : "BE-04",
+  "time" : {
+    "start" : 1627742013402,
+    "stop" : 1627742013404,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2afa347d275095e1",
+  "name" : "RI-03",
+  "time" : {
+    "start" : 1627742013348,
+    "stop" : 1627742013359,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b9cebe5203b406aa",
+  "name" : "BE-03",
+  "time" : {
+    "start" : 1627742013417,
+    "stop" : 1627742013419,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ade1bf64e5ddeca",
+  "name" : "RI-01",
+  "time" : {
+    "start" : 1627742013363,
+    "stop" : 1627742013365,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1140a63d846fa34c",
+  "name" : "BE-01",
+  "time" : {
+    "start" : 1627742013413,
+    "stop" : 1627742013414,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "849d29c0a3542eb9",
+  "name" : "LO-01",
+  "time" : {
+    "start" : 1627741987579,
+    "stop" : 1627742013187,
+    "duration" : 25608
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f5d5f225bd597a9f",
+  "name" : "RI-02",
+  "time" : {
+    "start" : 1627742013330,
+    "stop" : 1627742013332,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cf2736b51c946b44",
+  "name" : "RI-05",
+  "time" : {
+    "start" : 1627742013378,
+    "stop" : 1627742013383,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6baa0e1795da7636",
+  "name" : "RI-04",
+  "time" : {
+    "start" : 1627742013293,
+    "stop" : 1627742013304,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e3cf3db79367de38",
+  "name" : "BE-02",
+  "time" : {
+    "start" : 1627742013408,
+    "stop" : 1627742013410,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "41503cc3dcc6b49",
+  "name" : "RI-06",
+  "time" : {
+    "start" : 1627742013337,
+    "stop" : 1627742013343,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
