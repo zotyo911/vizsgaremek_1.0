@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.*;
+/*import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
@@ -58,11 +58,5 @@ public class TestRegistration {
         NewAccountPageObjects.clickNewAccountPageButton();
         RegistrationPageObjects.validRegistration();
 
-        Assertions.assertEquals("Enter the characters above", Util.getDriver().findElement(By.xpath("//*/div[1]/label")).getText());
-    }
-
-    @AfterEach
-    public void driverClose(){
-        Util.closeDriver();
-    }
-}
+        Assertions.assertEquals("Enter the characters above", Util.getDriver().findElement(By.xpath("//*//*div[1]/label")).getText());
+    }*/
