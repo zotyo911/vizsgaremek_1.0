@@ -1,0 +1,11 @@
+[ {
+  "uid" : "fc9f2441c645d219",
+  "name" : "TestCompleteSignOut()",
+  "time" : {
+    "start" : 1627750295298,
+    "stop" : 1627750296569,
+    "duration" : 1271
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
