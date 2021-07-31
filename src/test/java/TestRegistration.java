@@ -14,14 +14,14 @@ import java.util.concurrent.TimeUnit;
 
 public class TestRegistration {
 
+    public WebDriver driver;
+
     @BeforeEach
     public void Setup() {
-        Util.getDriver();
+        driver = Util.getDriver();
     }
 
     @Test
-    @DisplayName("RI-01")
-    @Order(1)
     public void TestRegistrationNoEmailAddress() {
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
@@ -31,8 +31,6 @@ public class TestRegistration {
     }
 
     @Test
-    @DisplayName("RI-02")
-    @Order(2)
     public void TestRegistrationNoName() {
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
@@ -42,8 +40,6 @@ public class TestRegistration {
     }
 
     @Test
-    @DisplayName("RI-03")
-    @Order(3)
     public void TestRegistrationNoPassword() {
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
@@ -53,8 +49,6 @@ public class TestRegistration {
     }
 
     @Test
-    @DisplayName("RI-04")
-    @Order(4)
     public void TestRegistrationNotValidPassword() {
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
@@ -64,8 +58,6 @@ public class TestRegistration {
     }
 
     @Test
-    @DisplayName("RI-05")
-    @Order(5)
     public void TestRegistrationNoMatchPassword() {
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
@@ -75,8 +67,6 @@ public class TestRegistration {
     }
 
     @Test
-    @DisplayName("RI-06")
-    @Order(6)
     public void TestValidRegistration(){
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
@@ -87,6 +77,6 @@ public class TestRegistration {
 
     @AfterEach
     public void Close() {
-        Util.closeDriver();
+        driver.close();
     }
 }

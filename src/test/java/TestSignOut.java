@@ -1,6 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
 import pages.SignInPageObjects;
@@ -9,13 +10,15 @@ import util.Util;
 
 public class TestSignOut {
 
+    public WebDriver driver;
+
     @BeforeEach
     public void Setup() {
-        Util.getDriver();
+        driver = Util.getDriver();
     }
 
+
     @Test
-    @DisplayName("LO-01")
     public void TestCompleteSignOut(){
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickSignInWithIMDbButton();
@@ -28,6 +31,6 @@ public class TestSignOut {
 
     @AfterEach
     public void Close() {
-        Util.closeDriver();
+        driver.close();
     }
 }

@@ -14,13 +14,10 @@ public class Util {
 
     public static WebDriver getDriver() {
         if (driver == null) {
+            System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--headless");
             driver = new ChromeDriver(options);
-
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             driver.get(URL);

@@ -13,14 +13,14 @@ import java.util.concurrent.TimeUnit;
 
 public class TestSignIn {
 
+    public WebDriver driver;
+
     @BeforeEach
     public void Setup() {
-        Util.getDriver();
+        driver = Util.getDriver();
     }
 
     @Test
-    @DisplayName("BE-01")
-    @Order(1)
     public void TestSignInEmptyNameInputField(){
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickSignInWithIMDbButton();
@@ -30,8 +30,6 @@ public class TestSignIn {
     }
 
     @Test
-    @DisplayName("BE-02")
-    @Order(2)
     public void TestSignInEmptyPasswordField(){
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickSignInWithIMDbButton();
@@ -41,8 +39,6 @@ public class TestSignIn {
     }
 
     @Test
-    @DisplayName("BE-03")
-    @Order(3)
     public void TestSignInWrongPassword(){
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickSignInWithIMDbButton();
@@ -52,8 +48,6 @@ public class TestSignIn {
     }
 
     @Test
-    @DisplayName("BE-04")
-    @Order(4)
     public void TestSignIn(){
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickSignInWithIMDbButton();
@@ -64,6 +58,6 @@ public class TestSignIn {
 
     @AfterEach
     public void Close() {
-        Util.closeDriver();
+        driver.close();
     }
 }
