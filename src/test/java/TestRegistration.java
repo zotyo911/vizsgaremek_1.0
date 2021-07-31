@@ -53,10 +53,11 @@ public class TestRegistration {
     }
 
     @Test
-    public void TestValidRegistration(){
+    public void TestValidRegistration() {
         MainPageObjects.clickSignInButton();
         NewAccountPageObjects.clickNewAccountPageButton();
         RegistrationPageObjects.validRegistration();
 
         Assertions.assertEquals("Enter the characters above", Util.getDriver().findElement(By.xpath("//*//*div[1]/label")).getText());
-    }*/
+    }
+}*/

@@ -15,6 +15,11 @@ import static util.Util.*;
 
 public class TestSignOut {
 
+    @BeforeEach
+    public void Init(){
+        Util.getDriver();
+    }
+
     @Test
     public void TestCompleteSignOut(){
         MainPageObjects.clickSignInButton();
@@ -28,6 +33,6 @@ public class TestSignOut {
 
     @AfterEach
     public void Close() {
-        getDriver().close();
+        Util.getDriver().close();
     }
 }
