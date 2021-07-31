@@ -1,22 +1,19 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
 import pages.SignInPageObjects;
 import pages.SignOutPageObjects;
 import util.Util;
 
+import static util.Util.*;
+
 public class TestSignOut {
-
-    public WebDriver driver;
-
-    @BeforeEach
-    public void Setup() {
-        driver = Util.getDriver();
-    }
-
 
     @Test
     public void TestCompleteSignOut(){
@@ -26,11 +23,11 @@ public class TestSignOut {
         SignOutPageObjects.clickToDropDownButton();
         SignOutPageObjects.clickSignOutButton();
 
-        Assertions.assertEquals("Sign In", Util.getDriver().findElement(By.cssSelector(".imdb-header__signin-text > .ipc-button__text")).getText());
+        Assertions.assertEquals("Sign In", getDriver().findElement(By.cssSelector(".imdb-header__signin-text > .ipc-button__text")).getText());
     }
 
     @AfterEach
     public void Close() {
-        driver.close();
+        getDriver().close();
     }
 }

@@ -1,0 +1,1 @@
+{"uuid":"e803bb2d-3859-466a-8b1e-5d34aabb4c96","name":"TestRegistrationNotValidPassword()","children":["73ac441e-cd4d-4b5f-be95-277f36f6f7c6"],"befores":[],"afters":[{"name":"Close","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1627746633734,"stop":1627746637902}],"links":[],"start":1627746602085,"stop":1627746638024}

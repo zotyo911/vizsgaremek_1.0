@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.sql.DriverManager;
 import java.util.concurrent.TimeUnit;
 
 public class Util {
@@ -25,7 +26,7 @@ public class Util {
         return driver;
     }
 
-    public static void closeDriver(){
+    public static void closeDriver() {
         driver.quit();
     }
 }

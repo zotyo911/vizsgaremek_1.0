@@ -1,0 +1,1 @@
+{"uuid":"b897f482-81d4-4e2d-9625-5c4ddfa94e0f","name":"TestCompleteSignOut()","children":["fee579ba-5234-4ae1-970d-fcc53e33397d"],"befores":[],"afters":[{"name":"Close","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1627748093002,"stop":1627748097161}],"links":[],"start":1627748073571,"stop":1627748097287}

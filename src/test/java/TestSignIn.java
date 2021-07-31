@@ -1,24 +1,13 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
 import pages.SignInPageObjects;
 import util.Util;
 
-import java.util.concurrent.TimeUnit;
-
 public class TestSignIn {
-
-    public WebDriver driver;
-
-    @BeforeEach
-    public void Setup() {
-        driver = Util.getDriver();
-    }
 
     @Test
     public void TestSignInEmptyNameInputField(){
@@ -58,6 +47,6 @@ public class TestSignIn {
 
     @AfterEach
     public void Close() {
-        driver.close();
+        Util.getDriver().close();
     }
 }

@@ -1,25 +1,11 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.By;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
 import pages.RegistrationPageObjects;
 import util.Util;
 
-import java.io.ByteArrayInputStream;
-import java.util.concurrent.TimeUnit;
-
 public class TestRegistration {
-
-    public WebDriver driver;
-
-    @BeforeEach
-    public void Setup() {
-        driver = Util.getDriver();
-    }
 
     @Test
     public void TestRegistrationNoEmailAddress() {
@@ -76,7 +62,7 @@ public class TestRegistration {
     }
 
     @AfterEach
-    public void Close() {
-        driver.close();
+    public void driverClose(){
+        Util.closeDriver();
     }
 }
