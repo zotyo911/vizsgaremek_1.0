@@ -1,0 +1,1 @@
+{"uuid":"a8f30dcc-1d1a-4c1f-8b23-9695cd5136a9","name":"TestSignInEmptyNameInputField()","children":["03af8699-2bcd-4967-ae40-aa78c4d4d572"],"befores":[],"afters":[{"name":"Close","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1627751488639,"stop":1627751488639}],"links":[],"start":1627751488636,"stop":1627751488643}

@@ -1,5 +1,7 @@
-/*import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
 import pages.RegistrationPageObjects;
@@ -60,4 +62,4 @@ public class TestRegistration {
 
         Assertions.assertEquals("Enter the characters above", Util.getDriver().findElement(By.xpath("//*//*div[1]/label")).getText());
     }
-}*/
+}
