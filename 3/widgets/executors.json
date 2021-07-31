@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://zotyo911.github.io/vizsgaremek_1.0",
+  "buildOrder" : 3,
+  "buildName" : "GitHub Actions Run #1085352385",
+  "buildUrl" : "https://github.com/zotyo911/vizsgaremek_1.0/actions/runs/1085352385",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://zotyo911.github.io/vizsgaremek_1.0/3/"
+} ]

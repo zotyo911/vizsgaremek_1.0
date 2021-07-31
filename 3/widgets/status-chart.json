@@ -1,0 +1,111 @@
+[ {
+  "uid" : "ac29ed2c5081fd0c",
+  "name" : "TestSignInEmptyNameInputField()",
+  "time" : {
+    "start" : 1627745091574,
+    "stop" : 1627745091828,
+    "duration" : 254
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f11c541fb9be6c46",
+  "name" : "TestSignInWrongPassword()",
+  "time" : {
+    "start" : 1627745091836,
+    "stop" : 1627745092138,
+    "duration" : 302
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "756bc095c8cfb062",
+  "name" : "TestRegistrationNoPassword()",
+  "time" : {
+    "start" : 1627745091639,
+    "stop" : 1627745091949,
+    "duration" : 310
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e55a114719d8a80",
+  "name" : "TestRegistrationNoMatchPassword()",
+  "time" : {
+    "start" : 1627745092174,
+    "stop" : 1627745092335,
+    "duration" : 161
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "28194b8a01071061",
+  "name" : "TestCompleteSignOut()",
+  "time" : {
+    "start" : 1627745089160,
+    "stop" : 1627745090821,
+    "duration" : 1661
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf630b62fe43b644",
+  "name" : "TestSignInEmptyPasswordField()",
+  "time" : {
+    "start" : 1627745091312,
+    "stop" : 1627745091568,
+    "duration" : 256
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "334062792b1c8869",
+  "name" : "TestValidRegistration()",
+  "time" : {
+    "start" : 1627745091287,
+    "stop" : 1627745091603,
+    "duration" : 316
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f181cf5fc53a7be3",
+  "name" : "TestRegistrationNoName()",
+  "time" : {
+    "start" : 1627745090956,
+    "stop" : 1627745091281,
+    "duration" : 325
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4544a2a4ac127ac5",
+  "name" : "TestRegistrationNotValidPassword()",
+  "time" : {
+    "start" : 1627745089105,
+    "stop" : 1627745090746,
+    "duration" : 1641
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "92f486f65b4f55f2",
+  "name" : "TestSignIn()",
+  "time" : {
+    "start" : 1627745091004,
+    "stop" : 1627745091304,
+    "duration" : 300
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5768062ee5364344",
+  "name" : "TestRegistrationNoEmailAddress()",
+  "time" : {
+    "start" : 1627745091952,
+    "stop" : 1627745092170,
+    "duration" : 218
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
