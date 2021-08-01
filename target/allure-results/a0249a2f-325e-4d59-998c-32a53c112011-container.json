@@ -1,0 +1,1 @@
+{"uuid":"a0249a2f-325e-4d59-998c-32a53c112011","name":"TestSignInEmptyPasswordField()","children":["5081324c-680f-4a35-9710-6cc884cbe488"],"befores":[{"name":"init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1627814049674,"stop":1627814049674}],"afters":[],"links":[],"start":1627814049670,"stop":1627814069758}

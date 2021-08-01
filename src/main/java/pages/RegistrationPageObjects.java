@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import util.Util;
+import util.Webdriver;
 
 public class RegistrationPageObjects {
 
@@ -19,48 +19,48 @@ public class RegistrationPageObjects {
     protected static final By createYourIMDBAccountButton = By.id("continue");
 
     public static void registrationNoEmailAddress() {
-        Util.getDriver().findElement(nameInput).sendKeys(name);
-        Util.getDriver().findElement(passwordInput).sendKeys(password);
-        Util.getDriver().findElement(checkPasswordInput).sendKeys(password);
-        Util.getDriver().findElement(createYourIMDBAccountButton).click();
+        Webdriver.getDriver().findElement(nameInput).sendKeys(name);
+        Webdriver.getDriver().findElement(passwordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(checkPasswordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(createYourIMDBAccountButton).click();
     }
 
     public static void registrationNoName(){
-        Util.getDriver().findElement(emailInput).sendKeys(email);
-        Util.getDriver().findElement(passwordInput).sendKeys(password);
-        Util.getDriver().findElement(checkPasswordInput).sendKeys(password);
-        Util.getDriver().findElement(createYourIMDBAccountButton).click();
+        Webdriver.getDriver().findElement(emailInput).sendKeys(email);
+        Webdriver.getDriver().findElement(passwordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(checkPasswordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(createYourIMDBAccountButton).click();
     }
 
     public static void registrationNoPassword(){
-        Util.getDriver().findElement(nameInput).sendKeys(name);
-        Util.getDriver().findElement(emailInput).sendKeys(email);
-        Util.getDriver().findElement(passwordInput).sendKeys("");
-        Util.getDriver().findElement(checkPasswordInput).sendKeys("");
-        Util.getDriver().findElement(createYourIMDBAccountButton).click();
+        Webdriver.getDriver().findElement(nameInput).sendKeys(name);
+        Webdriver.getDriver().findElement(emailInput).sendKeys(email);
+        Webdriver.getDriver().findElement(passwordInput).sendKeys("");
+        Webdriver.getDriver().findElement(checkPasswordInput).sendKeys("");
+        Webdriver.getDriver().findElement(createYourIMDBAccountButton).click();
     }
 
     public static void registrationNotValidPassword(){
-        Util.getDriver().findElement(nameInput).sendKeys(name);
-        Util.getDriver().findElement(emailInput).sendKeys(email);
-        Util.getDriver().findElement(passwordInput).sendKeys(notValidPassword);
-        Util.getDriver().findElement(checkPasswordInput).sendKeys(notValidPassword);
-        Util.getDriver().findElement(createYourIMDBAccountButton).click();
+        Webdriver.getDriver().findElement(nameInput).sendKeys(name);
+        Webdriver.getDriver().findElement(emailInput).sendKeys(email);
+        Webdriver.getDriver().findElement(passwordInput).sendKeys(notValidPassword);
+        Webdriver.getDriver().findElement(checkPasswordInput).sendKeys(notValidPassword);
+        Webdriver.getDriver().findElement(createYourIMDBAccountButton).click();
     }
 
     public static void registrationNoMatchPassword(){
-        Util.getDriver().findElement(nameInput).sendKeys(name);
-        Util.getDriver().findElement(emailInput).sendKeys(email);
-        Util.getDriver().findElement(passwordInput).sendKeys(password);
-        Util.getDriver().findElement(checkPasswordInput).sendKeys(notMatchPassword);
-        Util.getDriver().findElement(createYourIMDBAccountButton).click();
+        Webdriver.getDriver().findElement(nameInput).sendKeys(name);
+        Webdriver.getDriver().findElement(emailInput).sendKeys(email);
+        Webdriver.getDriver().findElement(passwordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(checkPasswordInput).sendKeys(notMatchPassword);
+        Webdriver.getDriver().findElement(createYourIMDBAccountButton).click();
     }
 
     public static void validRegistration() {
-        Util.getDriver().findElement(nameInput).sendKeys(name);
-        Util.getDriver().findElement(emailInput).sendKeys(email);
-        Util.getDriver().findElement(passwordInput).sendKeys(password);
-        Util.getDriver().findElement(checkPasswordInput).sendKeys(password);
-        Util.getDriver().findElement(createYourIMDBAccountButton).click();
+        Webdriver.getDriver().findElement(nameInput).sendKeys(name);
+        Webdriver.getDriver().findElement(emailInput).sendKeys(email);
+        Webdriver.getDriver().findElement(passwordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(checkPasswordInput).sendKeys(password);
+        Webdriver.getDriver().findElement(createYourIMDBAccountButton).click();
     }
 }

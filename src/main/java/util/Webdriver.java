@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.concurrent.TimeUnit;
 
-public class Util {
+public class Webdriver {
 
     private static WebDriver driver;
     private static final String URL = "https://www.imdb.com";
@@ -16,16 +16,12 @@ public class Util {
             System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.setExperimentalOption("useAutomationExtension", false);
+        //    options.setExperimentalOption("useAutomationExtension", false);
             driver = new ChromeDriver(options);
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             driver.get(URL);
         }
         return driver;
-    }
-
-    public static void closeDriver(){
-        driver.close();
     }
 }

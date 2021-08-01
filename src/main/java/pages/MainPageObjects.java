@@ -1,13 +1,13 @@
 package pages;
 
 import org.openqa.selenium.By;
-import util.Util;
+import util.Webdriver;
 
 public class MainPageObjects {
 
-    private static final By signInButton = By.cssSelector(".imdb-header__signin-text > .ipc-button__text");
+    private static final By signInButton = By.xpath("//*/div[2]/div[5]/a/div");
 
     public static void clickSignInButton(){
-        Util.getDriver().findElement(signInButton).click();
+        Webdriver.getDriver().findElement(signInButton).click();
     }
 }
