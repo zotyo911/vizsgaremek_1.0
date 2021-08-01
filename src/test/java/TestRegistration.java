@@ -1,13 +1,19 @@
-import org.junit.jupiter.api.*;
+/*import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import pages.MainPageObjects;
 import pages.NewAccountPageObjects;
 import pages.RegistrationPageObjects;
 import util.Util;
 
 public class TestRegistration {
+
+    @BeforeEach
+    public void init(){
+        Util.getDriver();
+    }
 
     @Test
     public void TestRegistrationNoEmailAddress() {
@@ -62,4 +68,9 @@ public class TestRegistration {
 
         Assertions.assertEquals("Enter the characters above", Util.getDriver().findElement(By.xpath("//*//*div[1]/label")).getText());
     }
-}
+
+    @AfterEach
+    public void closeDriver(){
+        Util.closeDriver();
+    }
+}*/

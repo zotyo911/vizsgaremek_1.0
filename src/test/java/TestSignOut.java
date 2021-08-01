@@ -15,6 +15,11 @@ import static util.Util.*;
 
 public class TestSignOut {
 
+    @BeforeEach
+    public void init(){
+        Util.getDriver();
+    }
+
     @Test
     public void TestCompleteSignOut(){
         MainPageObjects.clickSignInButton();
@@ -24,6 +29,11 @@ public class TestSignOut {
         SignOutPageObjects.clickSignOutButton();
 
         Assertions.assertEquals("Sign In", getDriver().findElement(By.cssSelector(".imdb-header__signin-text > .ipc-button__text")).getText());
+    }
+
+    @AfterEach
+    public void closeDriver(){
+        Util.closeDriver();
     }
 
 }

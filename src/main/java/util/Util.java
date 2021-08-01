@@ -16,6 +16,7 @@ public class Util {
             System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
+            options.setExperimentalOption("useAutomationExtension", false);
             driver = new ChromeDriver(options);
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().window().maximize();
