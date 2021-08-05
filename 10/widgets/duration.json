@@ -1,0 +1,181 @@
+[ {
+  "uid" : "abb1255b4b71cd28",
+  "name" : "RI-07 Regisztráció minden érvényes adat megadásával",
+  "time" : {
+    "start" : 1628172266809,
+    "stop" : 1628172266810,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d0766150a49aa8",
+  "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1628172266798,
+    "stop" : 1628172266800,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8915e4b53c8c6ed6",
+  "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628172266780,
+    "stop" : 1628172266782,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "379eb348eef722f0",
+  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "time" : {
+    "start" : 1628172266787,
+    "stop" : 1628172266789,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9ee575ce1bc84a1f",
+  "name" : "RI-01 Regisztráció email cím megadása nélkül",
+  "time" : {
+    "start" : 1628172266666,
+    "stop" : 1628172266718,
+    "duration" : 52
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f98a5d19ec0f90f",
+  "name" : "LI-02 Bejelentkezés edzőként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628172266872,
+    "stop" : 1628172266873,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f63123d73ca15b",
+  "name" : "LI-08 Bejelentkezés felhasználóként érvényes adatokkal",
+  "time" : {
+    "start" : 1628172266948,
+    "stop" : 1628172266949,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "859cf9c11d6a3c5a",
+  "name" : "LI-03 Bejelentkezés edzőként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1628172266876,
+    "stop" : 1628172266878,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7eddb01ea0adc19",
+  "name" : "LI-01 Bejelentkezés edzőként email cím megadása nélkül",
+  "time" : {
+    "start" : 1628172266867,
+    "stop" : 1628172266868,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "329cef914ec235d2",
+  "name" : "testUploadPersonaDetails()",
+  "time" : {
+    "start" : 1628172266952,
+    "stop" : 1628172266960,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee22166a3badc30",
+  "name" : "LI-07 Bejelentkezés felhasználóként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1628172266943,
+    "stop" : 1628172266944,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a803e77e5756d827",
+  "name" : "LI-05 Bejelentkezés felhasználóként email cím megadása nélkül",
+  "time" : {
+    "start" : 1628172266898,
+    "stop" : 1628172266900,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ddc5bd2566ef8f51",
+  "name" : "LI-06 Bejelentkezés felhasználóként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628172266904,
+    "stop" : 1628172266905,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4e00088457aa8ce0",
+  "name" : "LO-02 User kijlentkezés",
+  "time" : {
+    "start" : 1628172266849,
+    "stop" : 1628172266852,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fafb061f2e601122",
+  "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1628172266804,
+    "stop" : 1628172266805,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "63a57ddbdda48d1b",
+  "name" : "LI-04 Bejelentkezés edzőként érvényes adatokkal",
+  "time" : {
+    "start" : 1628172266888,
+    "stop" : 1628172266895,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "be6046a2b0aa3576",
+  "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+  "time" : {
+    "start" : 1628172266792,
+    "stop" : 1628172266794,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c1a67325d8d9d03",
+  "name" : "LO-01 Trainer kijlentkezés",
+  "time" : {
+    "start" : 1628172266825,
+    "stop" : 1628172266832,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
