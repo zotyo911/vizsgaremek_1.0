@@ -1,0 +1,1 @@
+{"uuid":"d8926bdf-1af0-4342-83ec-604a2a0208a8","name":"LI-08 Bejelentkezés felhasználóként érvényes adatokkal","children":["05d56d80-a1b9-493e-8fa1-d2b8f51bfa00"],"befores":[{"name":"Init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628157823578,"stop":1628157825587}],"afters":[],"links":[],"start":1628157823475,"stop":1628157860780}

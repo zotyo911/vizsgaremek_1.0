@@ -1,0 +1,1 @@
+{"uuid":"f9fc6c7f-866f-4277-bb1f-d831cb604377","name":"RI-07 Regisztráció minden érvényes adat megadásával","children":["8a1087f8-279f-4d23-be4a-9e7ce1cfaf33"],"befores":[{"name":"Init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628168295949,"stop":1628168297846}],"afters":[],"links":[],"start":1628168295839,"stop":1628168307929}
