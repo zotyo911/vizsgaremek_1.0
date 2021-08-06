@@ -1,0 +1,1 @@
+{"uuid":"aeb6761f-e952-4b7a-a7d6-887175091680","name":"TestChooseTraining()","children":["c8fc2388-f627-4766-b234-a6ec64709723"],"befores":[{"name":"Init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628270092634,"stop":1628270094653}],"afters":[],"links":[],"start":1628270092540,"stop":1628270103711}

@@ -1,10 +1,9 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import pages.CalendarPage;
+import pages.GdprPage;
 import pages.LoginPage;
 
 import java.util.concurrent.TimeUnit;
@@ -15,6 +14,7 @@ public class LoginTest {
     WebDriver webdriver;
     CalendarPage calendarPage;
     LoginPage loginPage;
+    GdprPage gdprPage;
 
     @BeforeEach
     public void Init() {

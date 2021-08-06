@@ -1,0 +1,1 @@
+{"uuid":"bb414b93-b362-4f5e-8bb4-860995d8fc37","name":"TestSaveTrainingDetailsToFile()","children":["ba67662d-eca8-4b72-97da-c09bb8948a1c"],"befores":[{"name":"Init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628272065904,"stop":1628272067810}],"afters":[],"links":[],"start":1628272065795,"stop":1628272071918}

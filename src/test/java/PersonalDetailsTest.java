@@ -140,11 +140,27 @@ public class PersonalDetailsTest {
         Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
     }
 
+    @Test
+    @Order(8)
+    public void testDeleteUserBillingDetails(){
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.clickHamburgerButton();
+        calendarPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.trainerLogin(Constants.EMAIL, Constants.PASSWORD);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.deleteBillingDetails(Constants.USER_FULLNAME);
+
+        Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
+    }
 
 
 
-    @AfterEach
+
+ /*   @AfterEach
     public void Close() {
         webdriver.quit();
-    }
+    }*/
 }

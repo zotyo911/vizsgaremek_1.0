@@ -45,7 +45,7 @@ public class PersonalDetails {
         webdriver.findElement(USER_FIRSTNAME_INPUT).sendKeys(firstname);
         webdriver.findElement(USER_SURNAME_INPUT).sendKeys(surname);
         webdriver.findElement(USER_NICKNAME_INPUT).sendKeys(nickname, Keys.ENTER);
-    //    webdriver.findElement(SAVE_USER_PERSONAL_DETAILS_BUTTON).click();
+        webdriver.findElement(SAVE_USER_PERSONAL_DETAILS_BUTTON).click();
     }
 
     public void uploadBillingDetails(String name, String country, String postalcode, String city, String address) {
@@ -59,6 +59,15 @@ public class PersonalDetails {
         webdriver.findElement(USER_POSTAL_CODE_INPUT).sendKeys(postalcode);
         webdriver.findElement(USER_CITY_INPUT).sendKeys(city);
         webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address, Keys.ENTER);
+    }
+
+    public void deleteBillingDetails(String name) {
+        webdriver.findElement(USER_FULLNAME_INPUT).clear();
+        webdriver.findElement(USER_COUNTRY_INPUT).clear();
+        webdriver.findElement(USER_POSTAL_CODE_INPUT).clear();
+        webdriver.findElement(USER_CITY_INPUT).clear();
+        webdriver.findElement(USER_ADDRESS_INPUT).clear();
+        webdriver.findElement(USER_FULLNAME_INPUT).sendKeys(name, Keys.ENTER);
     }
 
     public void changePassword(String password, String newpassword, String confirmpassword) {

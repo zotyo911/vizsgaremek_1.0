@@ -1,0 +1,1 @@
+{"uuid":"93b6adaa-3a98-434d-a912-486f42612c15","name":"TestOpenGDPR()","children":["112c7433-fff5-414e-a687-f7ae85bb699e"],"befores":[{"name":"Init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628264203080,"stop":1628264205280}],"afters":[],"links":[],"start":1628264202966,"stop":1628264297779}
