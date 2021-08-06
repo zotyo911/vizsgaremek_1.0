@@ -1,0 +1,241 @@
+[ {
+  "uid" : "3eb155b0b3355848",
+  "name" : "LO-01 Trainer kijlentkezés",
+  "time" : {
+    "start" : 1628260092055,
+    "stop" : 1628260092062,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ec25ed7d9c4421b8",
+  "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+  "time" : {
+    "start" : 1628260092009,
+    "stop" : 1628260092011,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9bae97388af0b7fa",
+  "name" : "RI-01 Regisztráció email cím megadása nélkül",
+  "time" : {
+    "start" : 1628260091842,
+    "stop" : 1628260091915,
+    "duration" : 73
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "735ddc9f17360312",
+  "name" : "LO-02 User kijlentkezés",
+  "time" : {
+    "start" : 1628260092094,
+    "stop" : 1628260092100,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d7a520528f229ad3",
+  "name" : "LI-08 Bejelentkezés felhasználóként érvényes adatokkal",
+  "time" : {
+    "start" : 1628260092188,
+    "stop" : 1628260092191,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3258f251111e9dc9",
+  "name" : "testAddWrongConfirmPassword()",
+  "time" : {
+    "start" : 1628260092260,
+    "stop" : 1628260092264,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1776de2b2bf07cd9",
+  "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628260091992,
+    "stop" : 1628260091995,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "128487701fdde1a2",
+  "name" : "LI-02 Bejelentkezés edzőként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628260092129,
+    "stop" : 1628260092131,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb21e5ad9fc9d919",
+  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "time" : {
+    "start" : 1628260092001,
+    "stop" : 1628260092003,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d72d8831f04cf87f",
+  "name" : "testChangePassword()",
+  "time" : {
+    "start" : 1628260092269,
+    "stop" : 1628260092275,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7df668304657adc",
+  "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1628260092026,
+    "stop" : 1628260092029,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f021196e611902d3",
+  "name" : "RI-07 Regisztráció minden érvényes adat megadásával",
+  "time" : {
+    "start" : 1628260092034,
+    "stop" : 1628260092037,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c3d0dd17a09d6b14",
+  "name" : "testUploadUserBillingDetails()",
+  "time" : {
+    "start" : 1628260092284,
+    "stop" : 1628260092288,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0a1f7db487484ef",
+  "name" : "testAddWrongPasswordToChange()",
+  "time" : {
+    "start" : 1628260092222,
+    "stop" : 1628260092246,
+    "duration" : 24
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d80e1a102b4808dd",
+  "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1628260092017,
+    "stop" : 1628260092019,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5c2ba1793cd3f146",
+  "name" : "LI-04 Bejelentkezés edzőként érvényes adatokkal",
+  "time" : {
+    "start" : 1628260092147,
+    "stop" : 1628260092151,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c4e809902402e8b",
+  "name" : "LI-06 Bejelentkezés felhasználóként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628260092167,
+    "stop" : 1628260092171,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "78761dc7b8bc2eeb",
+  "name" : "testModifyUserBillingDetails()",
+  "time" : {
+    "start" : 1628260092302,
+    "stop" : 1628260092304,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "62e9f59cac24d9d6",
+  "name" : "LI-03 Bejelentkezés edzőként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1628260092139,
+    "stop" : 1628260092141,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cb9b3cfb9ba7d51",
+  "name" : "LI-01 Bejelentkezés edzőként email cím megadása nélkül",
+  "time" : {
+    "start" : 1628260092114,
+    "stop" : 1628260092116,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84781384677e0f14",
+  "name" : "LI-07 Bejelentkezés felhasználóként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1628260092179,
+    "stop" : 1628260092181,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d468ed4f369770e",
+  "name" : "testChangeBackToOriginalPassword()",
+  "time" : {
+    "start" : 1628260092295,
+    "stop" : 1628260092298,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c710e2ad171d377e",
+  "name" : "testUploadUserPersonaDetails()",
+  "time" : {
+    "start" : 1628260092210,
+    "stop" : 1628260092216,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e96a197e1567a8c7",
+  "name" : "LI-05 Bejelentkezés felhasználóként email cím megadása nélkül",
+  "time" : {
+    "start" : 1628260092156,
+    "stop" : 1628260092158,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
