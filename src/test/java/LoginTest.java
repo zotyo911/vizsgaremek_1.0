@@ -134,7 +134,7 @@ public class LoginTest {
         calendarPage.clickHamburgerButton();
         calendarPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.USER_EMAIL, Constants.USER_PASSWORD);
+        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
 
         Assertions.assertEquals("Hello, Teszti", webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
     }

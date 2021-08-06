@@ -37,7 +37,7 @@ public class LoginPage {
         webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
         webDriver.findElement(LOGIN_BUTTON).click();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -63,6 +63,18 @@ public class LoginPage {
     }
 
     public void userLogin(String email, String password){
+        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webDriver.findElement(LOGIN_BUTTON).click();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        new CalendarPage(webDriver);
+    }
+
+    public void userChangedPasswordLogin(String email, String password){
         webDriver.findElement(EMAIL_INPUT).sendKeys(email);
         webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
         webDriver.findElement(LOGIN_BUTTON).click();
