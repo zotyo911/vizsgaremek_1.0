@@ -34,7 +34,6 @@ public class GdprTest {
     }
 
 
-
  /*   @AfterEach
     public void Close() {
         webdriver.quit();

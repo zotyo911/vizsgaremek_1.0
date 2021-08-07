@@ -2,8 +2,9 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.CalendarPage;
-import pages.GdprPage;
 
+import java.io.FileNotFoundException;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -11,6 +12,7 @@ public class TrainingTest {
 
     WebDriver webdriver;
     CalendarPage calendarPage;
+
 
     @BeforeEach
     public void Init() {
@@ -23,12 +25,22 @@ public class TrainingTest {
 
     @Test
     @Order(1)
-    public void TestSaveTrainingDetailsToFile() {
+    public void TestSaveTrainingDetailsToFile()  {
         calendarPage = new CalendarPage(webdriver);
         calendarPage.navigateToURL(Constants.URL);
-        calendarPage.saveTrainingDatasToFile();
+        String text = calendarPage.saveTrainingDatasToFile();
+        String result = calendarPage.readTrainingDetailsFile();
 
-     //   Assertions.assertEquals(calendarPage.saveTrainingDatasToFile(), calendarPage.);
+        Assertions.assertEquals(text, result);
+    }
+
+    @Test
+    public void testChooseTrainingType(){
+        calendarPage =new CalendarPage(webdriver);
+        calendarPage.navigateToURL(Constants.URL);
+        boolean isContains = calendarPage.chooseTrainingType("jóga");
+
+        Assertions.assertTrue(isContains);
     }
 
     @AfterEach

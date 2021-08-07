@@ -10,6 +10,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CalendarPage {
@@ -37,6 +38,7 @@ public class CalendarPage {
     private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
 
     private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
+    private final By TRAININGS = By.cssSelector(".mat-card");
 
 
     public void navigateToURL(String url) {
@@ -68,10 +70,11 @@ public class CalendarPage {
 
     }
 
-    public void saveTrainingDatasToFile() {
+    public String saveTrainingDatasToFile() {
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
-        if(trainings.size()>0){
-            String text = trainings.get(1).getText();
+        String text = null;
+        if (trainings.size() > 0) {
+            text = trainings.get(1).getText();
             try {
                 FileWriter textFile = new FileWriter("trainingResult.txt");
                 textFile.append(text);
@@ -79,7 +82,45 @@ public class CalendarPage {
             } catch (IOException e) {
             }
         }
+        return text;
     }
+
+    public String readTrainingDetailsFile() {
+        String data = "";
+        int i;
+        try {
+            File file = new File("trainingResult.txt");
+            Scanner scanner = new Scanner(file);
+        /*    for (i = 0; i < file.length()-1; i++) {
+                if (scanner.hasNextLine()){
+                    data += scanner.nextLine() + "\n";
+                }
+            }*/
+
+            while (scanner.hasNextLine()) {
+                data += scanner.nextLine() + "\n";
+
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
+        return data;
+    }
+
+
+    public boolean chooseTrainingType(String type){
+        boolean isContains = false;
+        List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+        for(WebElement training : trainings){
+            WebElement currentTrainings = training.findElement(TRAININGS);
+            if(currentTrainings.getText().toUpperCase().contains(type.toUpperCase())){
+                isContains = true;
+                break;
+            }
+        }
+        return isContains;
+    }
+
 
 
 
