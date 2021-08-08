@@ -37,4 +37,14 @@ public class Constants {
     public static final String USER_MODIFIED_CITY = "Bonyhád";
     public static final String USER_MODIFIED_ADDRESS = "Fáy u. 22.";
 
+    //types of trainings
+    public static final String TRAINING_TYPE_INVALID = "bmzxydze";
+    public static final String TRAINING_TYPE_JOGA = "jóga";
+    public static final String TRAINING_TYPE_STRECHING = "nyújtás";
+    public static final String TRAINING_TYPE_MEDITATON = "meditáció";
+    public static final String TRAINING_TYPE_KARDIO = "kardió";
+    public static final String TRAINING_TYPE_PILATES = "pilates";
+    public static final String TRAINING_TYPE_BODYFIT = "alakformáló";
+    public static final String TRAINING_TYPE_MUSCLE = "erőnléti";
+    public static final String TRAINING_TYPE_OTHER = "egyéb";
 }
