@@ -36,7 +36,7 @@ public class TrainingTest {
     public void testChooseTrainingType(){
         calendarPage =new CalendarPage(webdriver);
         calendarPage.navigateToURL(Constants.URL);
-        boolean isContains = calendarPage.chooseTrainingType(Constants.TRAINING_TYPE_JOGA);
+        boolean isContains = calendarPage.chooseTrainingType(Constants.TRAINING_TYPE_MEDITATON);
 
         Assertions.assertTrue(isContains);
     }
@@ -133,7 +133,7 @@ public class TrainingTest {
     public void testOfOtherButton(){
         calendarPage =new CalendarPage(webdriver);
         calendarPage.navigateToURL(Constants.URL);
-        calendarPage.muscleButtonClick();
+        calendarPage.otherButtonClick();
         boolean isContains = calendarPage.upperMenuButtonChecker(Constants.TRAINING_TYPE_OTHER);
 
         Assertions.assertTrue(isContains);

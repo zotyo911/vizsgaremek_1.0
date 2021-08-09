@@ -126,12 +126,12 @@ public class CalendarPage {
             WebElement currentTrainings = training.findElement(TRAININGS);
             if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
                 isContains = true;
-                break;
+            } else {
+                isContains = false;
             }
         }
         return isContains;
     }
-
     public void jogaButtonClick(){
         webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
     }
@@ -167,17 +167,15 @@ public class CalendarPage {
 
 
 
-    public boolean upperMenuButtonChecker(String type) {
-        boolean isContains = false;
+    public boolean upperMenuButtonChecker(String type){
+        boolean isContains = true;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
-            if(trainings.size() == 0){
-                System.out.println("No any active training here!");
-                break;
-            }
             WebElement currentTrainings = training.findElement(TRAININGS);
-            if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
+            if (trainings.size() == 0 || currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
                 isContains = true;
+            } else {
+                isContains = false;
             }
         }
         return isContains;
