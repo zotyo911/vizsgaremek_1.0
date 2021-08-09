@@ -1,0 +1,1 @@
+{"uuid":"18bc5a31-8c7f-435e-b998-7f25729df0f3","name":"testFindAllActiveTrainings()","children":["93233358-a7b2-4820-8a9d-352c2631a20b"],"befores":[{"name":"Init","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628519396127,"stop":1628519398196}],"afters":[],"links":[],"start":1628519396034,"stop":1628519527469}

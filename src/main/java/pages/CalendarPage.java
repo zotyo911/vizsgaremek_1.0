@@ -1,7 +1,6 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -9,10 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class CalendarPage {
 
@@ -39,8 +35,8 @@ public class CalendarPage {
     private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
 
     private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
-    private final By TRAININGS = By.cssSelector(".mat-card");
-    private final By CALENDAR_FORWARD_ARROW_BUTTON = By.xpath("//*/section/div/span[2]");
+    private final By TRAININGS = By.xpath(".//mat-card");
+    private final By CALENDAR_RIGHT_ARROW_BUTTON = By.xpath("//*/section/div/span[2]");
     private final By CALENDAR_TRAINING_LIST = By.xpath("//*/app-training-calendar-list-view");
     private final By UPPER_MENU_JOGA_BUTTON = By.cssSelector("div:nth-child(1) > button > mat-icon > svg");
     private final By UPPER_MENU_STRECHING_BUTTON = By.cssSelector("div:nth-child(2) > button > mat-icon > svg");
@@ -52,11 +48,11 @@ public class CalendarPage {
     private final By UPPER_MENU_OTHER_BUTTON = By.cssSelector("div:nth-child(8) > button > mat-icon > svg");
 
 
-
     public void navigateToURL(String url) {
         webdriver.get(url);
     }
 
+    //az oldalon található gombok klikk metódusai
     public void clickHamburgerButton() {
         webdriver.findElement(HAMBURGER_BUTTON).click();
     }
@@ -76,12 +72,54 @@ public class CalendarPage {
         new PersonalDetails(webdriver);
     }
 
+    public void jogaButtonClick() {
+        webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
+    }
+
+    public void stechingButtonClick() {
+        webdriver.findElement(UPPER_MENU_STRECHING_BUTTON).click();
+    }
+
+    public void meditationButtonClick() {
+        webdriver.findElement(UPPER_MENU_MEDITATION_BUTTON).click();
+    }
+
+    public void kardioButtonClick() {
+        webdriver.findElement(UPPER_MENU_KARDIO_BUTTON).click();
+    }
+
+    public void pilatesButtonClick() {
+        webdriver.findElement(UPPER_MENU_PILATES_BUTTON).click();
+    }
+
+    public void bodyFitButtonClick() {
+        webdriver.findElement(UPPER_MENU_BODYFIT_BUTTON).click();
+    }
+
+    public void muscleButtonClick() {
+        webdriver.findElement(UPPER_MENU_MUSCLE_BUTTON).click();
+    }
+
+    public void otherButtonClick() {
+        webdriver.findElement(UPPER_MENU_OTHER_BUTTON).click();
+    }
+
+    public void calendarRightArrowButtonClick() {
+        webdriver.findElement(CALENDAR_RIGHT_ARROW_BUTTON).click();
+    }
+
+    public void clickCookiesAcceptButton () {
+        webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
+    }
+
+    //adatvédelmi nyilatkozatot nyitja meg
     public void openGDPR() {
         webdriver.findElement(GDPR_BUTTON).click();
         new GdprPage(webdriver);
 
     }
 
+    //elmenti egy adott edzés információit tartalmazó adatokat a (trainingResult.txt) fájlba
     public String saveTrainingDatasToFile() {
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         String text = "";
@@ -97,6 +135,7 @@ public class CalendarPage {
         return text;
     }
 
+    //kiolvassa az elmentett fájlunk (trainingResult.txt) tartalmát
     public String readTrainingDetailsFile() {
         String data = "";
         try {
@@ -118,7 +157,7 @@ public class CalendarPage {
         return data;
     }
 
-
+    //visszaadja, hogy az aktív héten van -e az edzéslistában olyan edzéstípus mint amelyikre rákeresünk
     public boolean chooseTrainingType(String type) {
         boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
@@ -132,42 +171,9 @@ public class CalendarPage {
         }
         return isContains;
     }
-    public void jogaButtonClick(){
-        webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
-    }
 
-    public void stechingButtonClick(){
-        webdriver.findElement(UPPER_MENU_STRECHING_BUTTON).click();
-    }
-
-    public void meditationButtonClick(){
-        webdriver.findElement(UPPER_MENU_MEDITATION_BUTTON).click();
-    }
-
-    public void kardioButtonClick(){
-        webdriver.findElement(UPPER_MENU_KARDIO_BUTTON).click();
-    }
-
-    public void pilatesButtonClick() {
-        webdriver.findElement(UPPER_MENU_PILATES_BUTTON).click();
-    }
-
-    public void bodyFitButtonClick(){
-        webdriver.findElement(UPPER_MENU_BODYFIT_BUTTON).click();
-    }
-
-    public void muscleButtonClick(){
-        webdriver.findElement(UPPER_MENU_MUSCLE_BUTTON).click();
-    }
-
-    public void otherButtonClick(){
-        webdriver.findElement(UPPER_MENU_OTHER_BUTTON).click();
-    }
-
-
-
-
-    public boolean upperMenuButtonChecker(String type){
+    //felső menüsorban a gombokat ellenőrzi, hogy adott edzéstípusnhoz tartozó edzéseket listázza ki
+    public boolean upperMenuButtonChecker(String type) {
         boolean isContains = true;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
@@ -181,20 +187,36 @@ public class CalendarPage {
         return isContains;
     }
 
-        public void logout(){
+    //összeszámolja és visszaadja az aktív edzéseket
+    public int sumTraining() {
+        List<String> allOfActiveTrainings = new ArrayList<>();
+        int sum = 0;
+        List<WebElement> trainingsList;
+        do {
+            trainingsList = webdriver.findElements(TRAINING_LIST);
+            for (WebElement weeklyTrainings : trainingsList) {
+                List<WebElement> weeklyTrainingsList = weeklyTrainings.findElements(TRAININGS);
+                for (WebElement training : weeklyTrainingsList) {
+                    String newTrainingToList = training.getText();
+                    allOfActiveTrainings.add(newTrainingToList);
+                    sum = allOfActiveTrainings.size();
+                }
+            }
+            calendarRightArrowButtonClick();
+        }
+        while (trainingsList.size() > 0);
+        return sum;
+    }
+
+    public void logout () {
         webdriver.findElement(LOGOUT_ICON).click();
     }
 
-    public void clickCookiesAcceptButton(){
-        webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
-    }
-
-    public void clickCalendarButton(){
+    public void clickCalendarButton () {
         webdriver.findElement(CALENDAR_BUTTON).click();
     }
 
-    public void clickTrainerButton(){
+    public void clickTrainerButton () {
         webdriver.findElement(TRAINER_BUTTON);
     }
-
 }

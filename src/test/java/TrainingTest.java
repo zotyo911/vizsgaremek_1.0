@@ -139,6 +139,42 @@ public class TrainingTest {
         Assertions.assertTrue(isContains);
     }
 
+    @Test
+    @Order(11)
+    public void testFindAllActiveTrainings(){
+        calendarPage =new CalendarPage(webdriver);
+        calendarPage.navigateToURL(Constants.URL);
+        int sumAll = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.jogaButtonClick();
+        int sumJoga = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.stechingButtonClick();
+        int sumStreching = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.meditationButtonClick();
+        int sumMeditation = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.kardioButtonClick();
+        int sumKardio = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.pilatesButtonClick();
+        int sumPilates = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.bodyFitButtonClick();
+        int sumBodyFit = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.muscleButtonClick();
+        int sumMuscle = calendarPage.sumTraining();
+        calendarPage.navigateToURL(Constants.URL);
+        calendarPage.otherButtonClick();
+        int sumOther = calendarPage.sumTraining();
+
+        Assertions.assertEquals(sumAll, sumJoga + sumStreching + sumMeditation + sumKardio + sumPilates + sumBodyFit + sumMuscle + sumOther);
+    }
+
+
+
     @AfterEach
     public void Close() {
         webdriver.quit();
