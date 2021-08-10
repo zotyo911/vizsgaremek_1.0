@@ -1,0 +1,507 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az77-838",
+    "children" : [ {
+      "name" : "3602@fv-az77-838.ForkJoinPool-1-worker-3(14)",
+      "children" : [ {
+        "name" : "LI-06 Bejelentkezés felhasználóként jelszó megadása nélkül",
+        "uid" : "7de944c288860148",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521251,
+          "stop" : 1628601521253,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfOtherButton()",
+        "uid" : "2f5b2b39b02d93a",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601520666,
+          "stop" : 1628601520821,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-08 Bejelentkezés felhasználóként érvényes adatokkal",
+        "uid" : "d520038f1db707ba",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521258,
+          "stop" : 1628601521260,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteUserBillingDetails()",
+        "uid" : "bc48274aa6bbebb9",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521301,
+          "stop" : 1628601521302,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-07 Regisztráció minden érvényes adat megadásával",
+        "uid" : "9bcc5f58d698af10",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521131,
+          "stop" : 1628601521132,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-03 Bejelentkezés edzőként rossz jelszó megadásával",
+        "uid" : "760869bf606685c5",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521235,
+          "stop" : 1628601521236,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUploadUserBillingDetails()",
+        "uid" : "c97cd4a6c5019303",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521292,
+          "stop" : 1628601521293,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfKardioButton()",
+        "uid" : "c6d977e9dc134d09",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601519931,
+          "stop" : 1628601520128,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+        "uid" : "f3e730aaff32ef5",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521099,
+          "stop" : 1628601521101,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfPilatesButton()",
+        "uid" : "548b4e7732bad278",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601520144,
+          "stop" : 1628601520296,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfMeditationButton()",
+        "uid" : "8e200442f614e70c",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601519721,
+          "stop" : 1628601519921,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-04 Bejelentkezés edzőként érvényes adatokkal",
+        "uid" : "3be665eeb2b75f31",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521244,
+          "stop" : 1628601521246,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+        "uid" : "53bddd5515011d69",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521032,
+          "stop" : 1628601521037,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+        "uid" : "46d5ae3833f4f437",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521042,
+          "stop" : 1628601521047,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-01 Bejelentkezés edzőként email cím megadása nélkül",
+        "uid" : "e33a9511a5d721d2",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521220,
+          "stop" : 1628601521222,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChangeBackToOriginalPassword()",
+        "uid" : "2f4b57807ca10322",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521295,
+          "stop" : 1628601521296,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChooseTrainingType()",
+        "uid" : "b9af06805378db67",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601518839,
+          "stop" : 1628601519077,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfStrechingButton()",
+        "uid" : "eee37c08bb977ed3",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601519519,
+          "stop" : 1628601519714,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyUserBillingDetails()",
+        "uid" : "6ca3bdc84af3d0cc",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521298,
+          "stop" : 1628601521299,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChangePassword()",
+        "uid" : "262ddf681fab502b",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521288,
+          "stop" : 1628601521289,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+        "uid" : "4df39920050bff52",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521063,
+          "stop" : 1628601521070,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUploadUserPersonaDetails()",
+        "uid" : "51d7f98799402285",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521274,
+          "stop" : 1628601521278,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-05 Bejelentkezés felhasználóként email cím megadása nélkül",
+        "uid" : "354ab9d3e0589b91",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521248,
+          "stop" : 1628601521249,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-07 Bejelentkezés felhasználóként rossz jelszó megadásával",
+        "uid" : "60417e2d7e7de1cd",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521255,
+          "stop" : 1628601521256,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LO-01 Trainer kijlentkezés",
+        "uid" : "f151fb5b8c7d9a09",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521176,
+          "stop" : 1628601521178,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAddWrongConfirmPassword()",
+        "uid" : "b1bb82a9ad288b23",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521285,
+          "stop" : 1628601521286,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testFindAllActiveTrainings()",
+        "uid" : "c94fe29ac2539e36",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601520825,
+          "stop" : 1628601520990,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-01 Regisztráció email cím megadása nélkül",
+        "uid" : "c36f0f708a9aee05",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521013,
+          "stop" : 1628601521020,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfBodyFitButton()",
+        "uid" : "aef591c73e44e2aa",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601520305,
+          "stop" : 1628601520517,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfMuscleButton()",
+        "uid" : "374d2b7e0ced048",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601520520,
+          "stop" : 1628601520662,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-02 Bejelentkezés edzőként jelszó megadása nélkül",
+        "uid" : "80c3d308f877bd1f",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521227,
+          "stop" : 1628601521230,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestOpenGDPR()",
+        "uid" : "f66eb895e38983df",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521153,
+          "stop" : 1628601521156,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAddWrongPasswordToChange()",
+        "uid" : "25bac75427111dc3",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521281,
+          "stop" : 1628601521283,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testOfJogaButton()",
+        "uid" : "6e821d01d35cf94a",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601519293,
+          "stop" : 1628601519512,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChooseNotValidTrainingType()",
+        "uid" : "6c12a20267dcd2db",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601519092,
+          "stop" : 1628601519279,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestSaveTrainingDetailsToFile()",
+        "uid" : "f6556b710ad304eb",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601518181,
+          "stop" : 1628601518694,
+          "duration" : 513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LO-02 User kijlentkezés",
+        "uid" : "2741633bc59df2f2",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521189,
+          "stop" : 1628601521192,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+        "uid" : "a4e68c0c48473532",
+        "parentUid" : "3ec11d5f5fcf16ec50523d19f04208a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628601521110,
+          "stop" : 1628601521127,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ec11d5f5fcf16ec50523d19f04208a8"
+    } ],
+    "uid" : "04bafdd388f20db6d289ec881146f157"
+  } ],
+  "name" : "timeline"
+}
