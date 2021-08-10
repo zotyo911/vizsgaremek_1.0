@@ -58,7 +58,8 @@ public class PersonalDetails {
         webdriver.findElement(USER_COUNTRY_INPUT).sendKeys(country);
         webdriver.findElement(USER_POSTAL_CODE_INPUT).sendKeys(postalcode);
         webdriver.findElement(USER_CITY_INPUT).sendKeys(city);
-        webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address, Keys.ENTER);
+        webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address);
+        webdriver.findElement(SAVE_USER_BILLING_DETAILS_BUTTON).click();
     }
 
     public void deleteBillingDetails(String name) {
