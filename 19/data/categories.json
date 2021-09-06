@@ -1,0 +1,555 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "The driver executable does not exist: /home/runner/work/vizsgaremek_1.0/vizsgaremek_1.0/resources/chromedriver.exe",
+      "children" : [ {
+        "name" : "testUploadUserPersonaDetails()",
+        "uid" : "d8209e9f3d44b7f8",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986610,
+          "stop" : 1630910986686,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAddWrongPasswordToChange()",
+        "uid" : "73cfbc4885162426",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986782,
+          "stop" : 1630910986784,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testAddWrongConfirmPassword()",
+        "uid" : "b2b16dfc91252bac",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986795,
+          "stop" : 1630910986805,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChangePassword()",
+        "uid" : "3311a658e7692e70",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986819,
+          "stop" : 1630910986825,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUploadUserBillingDetails()",
+        "uid" : "dd8bb897d19d4488",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986833,
+          "stop" : 1630910986835,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testChangeBackToOriginalPassword()",
+        "uid" : "7403c2cbf5f3e22e",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986849,
+          "stop" : 1630910986854,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyUserBillingDetails()",
+        "uid" : "b474f248cc1eddb3",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986863,
+          "stop" : 1630910986865,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteUserBillingDetails()",
+        "uid" : "bfe42fa6da86290e",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986868,
+          "stop" : 1630910986874,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-01 Bejelentkezés edzőként email cím megadása nélkül",
+        "uid" : "48d20befbebe2978",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986909,
+          "stop" : 1630910986913,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-02 Bejelentkezés edzőként jelszó megadása nélkül",
+        "uid" : "4f27f4625fd13453",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986933,
+          "stop" : 1630910986935,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-03 Bejelentkezés edzőként rossz jelszó megadásával",
+        "uid" : "cb302bf093eeffd5",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986958,
+          "stop" : 1630910986960,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-04 Bejelentkezés edzőként érvényes adatokkal",
+        "uid" : "d154ace9ea982671",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986980,
+          "stop" : 1630910986982,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-05 Bejelentkezés felhasználóként email cím megadása nélkül",
+        "uid" : "85eee1f4fb8a7f0d",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986985,
+          "stop" : 1630910986986,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-06 Bejelentkezés felhasználóként jelszó megadása nélkül",
+        "uid" : "2c8300ebf991603c",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910986988,
+          "stop" : 1630910987003,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-07 Bejelentkezés felhasználóként rossz jelszó megadásával",
+        "uid" : "343dcef85f12d03d",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987014,
+          "stop" : 1630910987017,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-08 Bejelentkezés felhasználóként érvényes adatokkal",
+        "uid" : "4e4a22b34ca463f2",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987031,
+          "stop" : 1630910987034,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestOpenGDPR()",
+        "uid" : "917799e85a2916af",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987057,
+          "stop" : 1630910987068,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-01 Regisztráció email cím megadása nélkül",
+        "uid" : "c70442f6401d8790",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987078,
+          "stop" : 1630910987080,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+        "uid" : "4ebb0a84ecc81813",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987102,
+          "stop" : 1630910987105,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+        "uid" : "fd7b721b2ee5bef2",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987110,
+          "stop" : 1630910987112,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+        "uid" : "850d572f38b210d1",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987120,
+          "stop" : 1630910987121,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+        "uid" : "6b10fde4fc213f37",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987124,
+          "stop" : 1630910987125,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+        "uid" : "67d7333b197191e1",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987127,
+          "stop" : 1630910987133,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-07 Regisztráció minden érvényes adat megadásával",
+        "uid" : "90b1060fa4e1af5f",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987149,
+          "stop" : 1630910987151,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LO-01 Trainer kijlentkezés",
+        "uid" : "fd70309f854aaf14",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987166,
+          "stop" : 1630910987179,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LO-02 User kijlentkezés",
+        "uid" : "8bf8c27fdf1fb092",
+        "parentUid" : "22a6b25c4b46550bfb905e8b017f5e90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987182,
+          "stop" : 1630910987185,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22a6b25c4b46550bfb905e8b017f5e90"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x562bb8912a63 <unknown>\n#1 0x562bb8687458 <unknown>\n#2 0x562bb86aa2e3 <unknown>\n#3 0x562bb86a5e9f <unknown>\n#4 0x562bb86dfb72 <unknown>\n#5 0x562bb86d9fd3 <unknown>\n#6 0x562bb86b0514 <unknown>\n#7 0x562bb86b1505 <unknown>\n#8 0x562bb893ee2e <unknown>\n#9 0x562bb8954886 <unknown>\n#10 0x562bb893fd75 <unknown>\n#11 0x562bb8955d94 <unknown>\n#12 0x562bb89368eb <unknown>\n#13 0x562bb8970cd8 <unknown>\n#14 0x562bb8970e58 <unknown>\n#15 0x562bb898adfd <unknown>\n#16 0x7f15005e8609 start_thread\n",
+      "children" : [ {
+        "name" : "TestSaveTrainingDetailsToFile()",
+        "uid" : "10bba28795d5b6cd",
+        "parentUid" : "70028a213e93103b642220177c854965",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910987630,
+          "stop" : 1630910988090,
+          "duration" : 460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70028a213e93103b642220177c854965"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e919c8da63 <unknown>\n#1 0x55e919a02458 <unknown>\n#2 0x55e919a252e3 <unknown>\n#3 0x55e919a20e9f <unknown>\n#4 0x55e919a5ab72 <unknown>\n#5 0x55e919a54fd3 <unknown>\n#6 0x55e919a2b514 <unknown>\n#7 0x55e919a2c505 <unknown>\n#8 0x55e919cb9e2e <unknown>\n#9 0x55e919ccf886 <unknown>\n#10 0x55e919cbad75 <unknown>\n#11 0x55e919cd0d94 <unknown>\n#12 0x55e919cb18eb <unknown>\n#13 0x55e919cebcd8 <unknown>\n#14 0x55e919cebe58 <unknown>\n#15 0x55e919d05dfd <unknown>\n#16 0x7fd163700609 start_thread\n",
+      "children" : [ {
+        "name" : "testChooseTrainingType()",
+        "uid" : "c8f5687e0d817ca2",
+        "parentUid" : "be3d0d46d22abba63e9c23ac70c93fb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910988098,
+          "stop" : 1630910988260,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be3d0d46d22abba63e9c23ac70c93fb3"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x561cc0d4ca63 <unknown>\n#1 0x561cc0ac1458 <unknown>\n#2 0x561cc0ae42e3 <unknown>\n#3 0x561cc0adfe9f <unknown>\n#4 0x561cc0b19b72 <unknown>\n#5 0x561cc0b13fd3 <unknown>\n#6 0x561cc0aea514 <unknown>\n#7 0x561cc0aeb505 <unknown>\n#8 0x561cc0d78e2e <unknown>\n#9 0x561cc0d8e886 <unknown>\n#10 0x561cc0d79d75 <unknown>\n#11 0x561cc0d8fd94 <unknown>\n#12 0x561cc0d708eb <unknown>\n#13 0x561cc0daacd8 <unknown>\n#14 0x561cc0daae58 <unknown>\n#15 0x561cc0dc4dfd <unknown>\n#16 0x7f859d690609 start_thread\n",
+      "children" : [ {
+        "name" : "testChooseNotValidTrainingType()",
+        "uid" : "5e53b6226bbe2f55",
+        "parentUid" : "04746c8484dd79ad48fe410cd485979d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910988264,
+          "stop" : 1630910988424,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04746c8484dd79ad48fe410cd485979d"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x563a8edcda63 <unknown>\n#1 0x563a8eb42458 <unknown>\n#2 0x563a8eb652e3 <unknown>\n#3 0x563a8eb60e9f <unknown>\n#4 0x563a8eb9ab72 <unknown>\n#5 0x563a8eb94fd3 <unknown>\n#6 0x563a8eb6b514 <unknown>\n#7 0x563a8eb6c505 <unknown>\n#8 0x563a8edf9e2e <unknown>\n#9 0x563a8ee0f886 <unknown>\n#10 0x563a8edfad75 <unknown>\n#11 0x563a8ee10d94 <unknown>\n#12 0x563a8edf18eb <unknown>\n#13 0x563a8ee2bcd8 <unknown>\n#14 0x563a8ee2be58 <unknown>\n#15 0x563a8ee45dfd <unknown>\n#16 0x7f90b9280609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfJogaButton()",
+        "uid" : "e4ea42adc5327523",
+        "parentUid" : "4d5821ac78308c4c9d0d96c1b2955afa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910988446,
+          "stop" : 1630910988590,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d5821ac78308c4c9d0d96c1b2955afa"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5601c29e9a63 <unknown>\n#1 0x5601c275e458 <unknown>\n#2 0x5601c27812e3 <unknown>\n#3 0x5601c277ce9f <unknown>\n#4 0x5601c27b6b72 <unknown>\n#5 0x5601c27b0fd3 <unknown>\n#6 0x5601c2787514 <unknown>\n#7 0x5601c2788505 <unknown>\n#8 0x5601c2a15e2e <unknown>\n#9 0x5601c2a2b886 <unknown>\n#10 0x5601c2a16d75 <unknown>\n#11 0x5601c2a2cd94 <unknown>\n#12 0x5601c2a0d8eb <unknown>\n#13 0x5601c2a47cd8 <unknown>\n#14 0x5601c2a47e58 <unknown>\n#15 0x5601c2a61dfd <unknown>\n#16 0x7fe89af5c609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfStrechingButton()",
+        "uid" : "121a43f016350ef1",
+        "parentUid" : "8ac573bfde3cf2a05bb9a44d1a8c15e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910988594,
+          "stop" : 1630910988733,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ac573bfde3cf2a05bb9a44d1a8c15e8"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55826eb2ca63 <unknown>\n#1 0x55826e8a1458 <unknown>\n#2 0x55826e8c42e3 <unknown>\n#3 0x55826e8bfe9f <unknown>\n#4 0x55826e8f9b72 <unknown>\n#5 0x55826e8f3fd3 <unknown>\n#6 0x55826e8ca514 <unknown>\n#7 0x55826e8cb505 <unknown>\n#8 0x55826eb58e2e <unknown>\n#9 0x55826eb6e886 <unknown>\n#10 0x55826eb59d75 <unknown>\n#11 0x55826eb6fd94 <unknown>\n#12 0x55826eb508eb <unknown>\n#13 0x55826eb8acd8 <unknown>\n#14 0x55826eb8ae58 <unknown>\n#15 0x55826eba4dfd <unknown>\n#16 0x7f8316b20609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfMeditationButton()",
+        "uid" : "43ef33e9ba1fb796",
+        "parentUid" : "665012eeba6d43586cb3162be2f86f2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910988736,
+          "stop" : 1630910988943,
+          "duration" : 207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "665012eeba6d43586cb3162be2f86f2c"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x557016a43a63 <unknown>\n#1 0x5570167b8458 <unknown>\n#2 0x5570167db2e3 <unknown>\n#3 0x5570167d6e9f <unknown>\n#4 0x557016810b72 <unknown>\n#5 0x55701680afd3 <unknown>\n#6 0x5570167e1514 <unknown>\n#7 0x5570167e2505 <unknown>\n#8 0x557016a6fe2e <unknown>\n#9 0x557016a85886 <unknown>\n#10 0x557016a70d75 <unknown>\n#11 0x557016a86d94 <unknown>\n#12 0x557016a678eb <unknown>\n#13 0x557016aa1cd8 <unknown>\n#14 0x557016aa1e58 <unknown>\n#15 0x557016abbdfd <unknown>\n#16 0x7f264c1f2609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfKardioButton()",
+        "uid" : "10d7bc920a70cd60",
+        "parentUid" : "96075b2b9bbd31bebaa09d08b26cc35b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910988948,
+          "stop" : 1630910989097,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96075b2b9bbd31bebaa09d08b26cc35b"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55886293ba63 <unknown>\n#1 0x5588626b0458 <unknown>\n#2 0x5588626d32e3 <unknown>\n#3 0x5588626cee9f <unknown>\n#4 0x558862708b72 <unknown>\n#5 0x558862702fd3 <unknown>\n#6 0x5588626d9514 <unknown>\n#7 0x5588626da505 <unknown>\n#8 0x558862967e2e <unknown>\n#9 0x55886297d886 <unknown>\n#10 0x558862968d75 <unknown>\n#11 0x55886297ed94 <unknown>\n#12 0x55886295f8eb <unknown>\n#13 0x558862999cd8 <unknown>\n#14 0x558862999e58 <unknown>\n#15 0x5588629b3dfd <unknown>\n#16 0x7f46089d5609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfPilatesButton()",
+        "uid" : "fb5140ef13331d6b",
+        "parentUid" : "672008fd3f831845044d202635a4d78d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910989100,
+          "stop" : 1630910989242,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "672008fd3f831845044d202635a4d78d"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56023278da63 <unknown>\n#1 0x560232502458 <unknown>\n#2 0x5602325252e3 <unknown>\n#3 0x560232520e9f <unknown>\n#4 0x56023255ab72 <unknown>\n#5 0x560232554fd3 <unknown>\n#6 0x56023252b514 <unknown>\n#7 0x56023252c505 <unknown>\n#8 0x5602327b9e2e <unknown>\n#9 0x5602327cf886 <unknown>\n#10 0x5602327bad75 <unknown>\n#11 0x5602327d0d94 <unknown>\n#12 0x5602327b18eb <unknown>\n#13 0x5602327ebcd8 <unknown>\n#14 0x5602327ebe58 <unknown>\n#15 0x560232805dfd <unknown>\n#16 0x7fb492981609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfBodyFitButton()",
+        "uid" : "edf1dde72e190791",
+        "parentUid" : "921df94d7553cbb2ed5b2b28f2d76d84",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910989245,
+          "stop" : 1630910989397,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "921df94d7553cbb2ed5b2b28f2d76d84"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56192c6b6a63 <unknown>\n#1 0x56192c42b458 <unknown>\n#2 0x56192c44e2e3 <unknown>\n#3 0x56192c449e9f <unknown>\n#4 0x56192c483b72 <unknown>\n#5 0x56192c47dfd3 <unknown>\n#6 0x56192c454514 <unknown>\n#7 0x56192c455505 <unknown>\n#8 0x56192c6e2e2e <unknown>\n#9 0x56192c6f8886 <unknown>\n#10 0x56192c6e3d75 <unknown>\n#11 0x56192c6f9d94 <unknown>\n#12 0x56192c6da8eb <unknown>\n#13 0x56192c714cd8 <unknown>\n#14 0x56192c714e58 <unknown>\n#15 0x56192c72edfd <unknown>\n#16 0x7fd7c53ba609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfMuscleButton()",
+        "uid" : "96b069aed9189d51",
+        "parentUid" : "6893eeb77d547e17ccb7d8c3180787e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910989401,
+          "stop" : 1630910989546,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6893eeb77d547e17ccb7d8c3180787e1"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55c326d65a63 <unknown>\n#1 0x55c326ada458 <unknown>\n#2 0x55c326afd2e3 <unknown>\n#3 0x55c326af8e9f <unknown>\n#4 0x55c326b32b72 <unknown>\n#5 0x55c326b2cfd3 <unknown>\n#6 0x55c326b03514 <unknown>\n#7 0x55c326b04505 <unknown>\n#8 0x55c326d91e2e <unknown>\n#9 0x55c326da7886 <unknown>\n#10 0x55c326d92d75 <unknown>\n#11 0x55c326da8d94 <unknown>\n#12 0x55c326d898eb <unknown>\n#13 0x55c326dc3cd8 <unknown>\n#14 0x55c326dc3e58 <unknown>\n#15 0x55c326ddddfd <unknown>\n#16 0x7f160b645609 start_thread\n",
+      "children" : [ {
+        "name" : "testOfOtherButton()",
+        "uid" : "96dbc94d9913bad3",
+        "parentUid" : "437ba6749d91f9629eb1644c255fbf76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910989550,
+          "stop" : 1630910989687,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "437ba6749d91f9629eb1644c255fbf76"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-190', ip: '10.1.0.137', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '11.0.11'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55673914ea63 <unknown>\n#1 0x556738ec3458 <unknown>\n#2 0x556738ee62e3 <unknown>\n#3 0x556738ee1e9f <unknown>\n#4 0x556738f1bb72 <unknown>\n#5 0x556738f15fd3 <unknown>\n#6 0x556738eec514 <unknown>\n#7 0x556738eed505 <unknown>\n#8 0x55673917ae2e <unknown>\n#9 0x556739190886 <unknown>\n#10 0x55673917bd75 <unknown>\n#11 0x556739191d94 <unknown>\n#12 0x5567391728eb <unknown>\n#13 0x5567391accd8 <unknown>\n#14 0x5567391ace58 <unknown>\n#15 0x5567391c6dfd <unknown>\n#16 0x7fe63175c609 start_thread\n",
+      "children" : [ {
+        "name" : "testFindAllActiveTrainings()",
+        "uid" : "34504632f8d5fee2",
+        "parentUid" : "40cb9a80a8d6555b63290140480ab4a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630910989698,
+          "stop" : 1630910989841,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40cb9a80a8d6555b63290140480ab4a8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
