@@ -1,3 +1,4 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,13 +12,21 @@ public class TrainingTest {
     CalendarPage calendarPage;
 
 
+    @BeforeAll
+    public static void Init() {
+        WebDriverManager.chromedriver().setup();
+    }
+
     @BeforeEach
-    public void Init() {
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
+    public void setDriver() {
         webdriver = new ChromeDriver();
         webdriver.manage().window().maximize();
-        webdriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+    }
 
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 
     @Test
@@ -171,12 +180,5 @@ public class TrainingTest {
         int sumOther = calendarPage.sumTraining();
 
         Assertions.assertEquals(sumAll, sumJoga + sumStreching + sumMeditation + sumKardio + sumPilates + sumBodyFit + sumMuscle + sumOther);
-    }
-
-
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
     }
 }

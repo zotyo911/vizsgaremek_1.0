@@ -72,6 +72,14 @@ public class CalendarPage {
         new PersonalDetails(webdriver);
     }
 
+    public void clickCalendarButton() {
+        webdriver.findElement(CALENDAR_BUTTON).click();
+    }
+
+    public void clickTrainerButton() {
+        webdriver.findElement(TRAINER_BUTTON);
+    }
+
     public void jogaButtonClick() {
         webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
     }
@@ -108,7 +116,7 @@ public class CalendarPage {
         webdriver.findElement(CALENDAR_RIGHT_ARROW_BUTTON).click();
     }
 
-    public void clickCookiesAcceptButton () {
+    public void clickCookiesAcceptButton() {
         webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
     }
 
@@ -130,6 +138,7 @@ public class CalendarPage {
                 textFile.append(text);
                 textFile.close();
             } catch (IOException e) {
+                System.out.println(e.getMessage());
             }
         }
         return text;
@@ -141,15 +150,9 @@ public class CalendarPage {
         try {
             File file = new File("trainingResult.txt");
             Scanner scanner = new Scanner(file);
-        /*    for (i = 0; i < file.length()-1; i++) {
-                if (scanner.hasNextLine()){
-                    data += scanner.nextLine() + "\n";
-                }
-            }*/
 
             while (scanner.hasNextLine()) {
                 data += scanner.nextLine() + "\n";
-
             }
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
@@ -157,16 +160,16 @@ public class CalendarPage {
         return data;
     }
 
-    //visszaadja, hogy az aktív héten van -e az edzéslistában olyan edzéstípus mint amelyikre rákeresünk
+    //visszaadja, hogy az adott héten van-e az edzéslistában olyan edzéstípus mint amelyikre rákeresünk
     public boolean chooseTrainingType(String type) {
         boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
-            WebElement currentTrainings = training.findElement(TRAININGS);
-            if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
-                isContains = true;
-            } else {
-                isContains = false;
+            List<WebElement> currentTrainings = training.findElements(TRAININGS);
+            for(WebElement current : currentTrainings){
+                if (current.getText().toUpperCase().contains(type.toUpperCase())) {
+                    isContains = true;
+                }
             }
         }
         return isContains;
@@ -174,14 +177,19 @@ public class CalendarPage {
 
     //felső menüsorban a gombokat ellenőrzi, hogy adott edzéstípusnhoz tartozó edzéseket listázza ki
     public boolean upperMenuButtonChecker(String type) {
-        boolean isContains = true;
+        boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+        if(trainings.size() == 0){
+            isContains = true;
+        }
         for (WebElement training : trainings) {
-            WebElement currentTrainings = training.findElement(TRAININGS);
-            if (trainings.size() == 0 || currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
-                isContains = true;
-            } else {
-                isContains = false;
+            List<WebElement> currentTrainings = training.findElements(TRAININGS);
+            for (WebElement current : currentTrainings) {
+                if (current.getText().toUpperCase().contains(type.toUpperCase())) {
+                    isContains = true;
+                } else {
+                    isContains = false;
+                }
             }
         }
         return isContains;
@@ -210,13 +218,5 @@ public class CalendarPage {
 
     public void logout () {
         webdriver.findElement(LOGOUT_ICON).click();
-    }
-
-    public void clickCalendarButton () {
-        webdriver.findElement(CALENDAR_BUTTON).click();
-    }
-
-    public void clickTrainerButton () {
-        webdriver.findElement(TRAINER_BUTTON);
     }
 }
